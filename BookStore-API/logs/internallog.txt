@@ -1,0 +1,22 @@
+2021-06-29 16:47:50.3057 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-06-29 16:47:50.3309 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-06-29 16:47:50.5401 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-29 16:47:50.5528 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-06-29 16:47:50.5713 Info Message Template Auto Format enabled
+2021-06-29 16:47:50.6942 Info Adding target FileTarget(Name=logfile)
+2021-06-29 16:47:50.7250 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'console' not found for logging rule: *.
+2021-06-29 16:47:50.7886 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-06-29 16:47:50.8227 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
+2021-06-29 16:47:50.8567 Info Configuration initialized.
+2021-06-29 16:47:50.8727 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-07-07 15:57:26.8499 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-07 15:57:26.8636 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-07 15:57:26.9726 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-07-07 15:57:26.9726 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-07-07 15:57:26.9905 Info Message Template Auto Format enabled
+2021-07-07 15:57:27.0404 Info Adding target FileTarget(Name=logfile)
+2021-07-07 15:57:27.0575 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'console' not found for logging rule: *.
+2021-07-07 15:57:27.0956 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-07-07 15:57:27.1126 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
+2021-07-07 15:57:27.1422 Info Configuration initialized.
+2021-07-07 15:57:27.1422 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False

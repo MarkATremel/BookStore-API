@@ -86,7 +86,7 @@ namespace BookStore_API.Controllers
         /// <summary>
         /// Creates an author
         /// </summary>
-        /// <param name="author"></param>
+        /// <param name="authorDTO"></param>
         /// <returns></returns>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -122,7 +122,6 @@ namespace BookStore_API.Controllers
                 return InternalError($"{e.Message} - {e.InnerException}");
             }
         }
-
         /// <summary>
         /// Updates an author
         /// </summary>
@@ -143,6 +142,12 @@ namespace BookStore_API.Controllers
                     _logger.LogWarn($"Author Update failed with bad data");
                     return BadRequest();
                 }
+                var isExists = await _authorRepository.isExists(id);
+                if (!isExists)
+                {
+                    _logger.LogInfo($"Author with - {id} not found. ");
+                    return NotFound();
+                }
                 if (!ModelState.IsValid)
                 {
                     _logger.LogWarn($"Empty Request was submitted");
@@ -159,13 +164,50 @@ namespace BookStore_API.Controllers
             }
             catch (Exception e)
             {
-
+                return InternalError($"{e.Message} - {e.InnerException}");
+            }
+        }
+        /// <summary>
+        /// Removes an author by ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                _logger.LogInfo($"Author Delete attempted - {id} ");
+                if (id < 1)
+                {
+                    _logger.LogWarn($"Author Delete failed with bad data");
+                    return BadRequest();
+                }
+                var isExists = await _authorRepository.isExists(id);
+                if (!isExists)
+                {
+                    _logger.LogInfo($"Author with - {id} not found. ");
+                    return NotFound();
+                }
+                var author = await _authorRepository.FindByID(id);
+                var isSuccess = await _authorRepository.Delete(author);
+                if (!isSuccess)
+                {
+                    return InternalError($"Delete Operation Failed");
+                }
+                _logger.LogInfo($"Author Delete with - {id} was successful. ");
+                return NoContent();                                
+            }
+            catch (Exception e)
+            {
                 return InternalError($"{e.Message} - {e.InnerException}");
             }
         }
 
-
-            private ObjectResult InternalError(string message)
+        private ObjectResult InternalError(string message)
         {
             _logger.LogError(message);
             return StatusCode(500, "Something went wrong contact Mark");

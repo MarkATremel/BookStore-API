@@ -1,0 +1,32 @@
+2021-07-20 15:30:55.3104|INFO|Books - GetBook: Attempted Call 1
+2021-07-20 15:30:59.3555|WARN|Books - GetBook:Book not found: 1
+2021-07-20 16:19:22.9498|INFO|Books - Create: Attempted Call
+2021-07-20 16:19:23.3921|ERROR|Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book - 
+2021-07-20 16:24:40.0524|INFO|Books - Create: Attempted Call
+2021-07-20 16:24:44.3232|ERROR|An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "Adhoc", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:199ffbe5-a2dc-4dfb-8212-1a78014af4ce
+Error Number:547,State:0,Class:16
+2021-07-20 16:25:14.9230|INFO|Books - Create: Attempted Call
+2021-07-20 16:25:15.1729|INFO|Books - Create: Successful Call
+2021-07-20 16:25:15.1883|INFO|Books - Create: BookStore_API.Data.Book
+2021-07-20 17:15:03.0853|INFO|Books - Update: Attempted Call: 2
+2021-07-20 17:15:07.4941|INFO|Books - Update: Successful Call: 2
+2021-07-20 17:17:03.1056|INFO|Books - Update: Attempted Call: 2
+2021-07-20 17:17:03.2788|INFO|Books - Update: Successful Call: 2

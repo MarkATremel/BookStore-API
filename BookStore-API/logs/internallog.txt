@@ -20,3 +20,83 @@
 2021-07-07 15:57:27.1126 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
 2021-07-07 15:57:27.1422 Info Configuration initialized.
 2021-07-07 15:57:27.1422 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-07-20 14:37:04.2973 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 14:37:04.3131 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 14:37:04.4014 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-07-20 14:37:04.4125 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-07-20 14:37:04.4234 Info Message Template Auto Format enabled
+2021-07-20 14:37:04.4871 Info Adding target FileTarget(Name=logfile)
+2021-07-20 14:37:04.5226 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'console' not found for logging rule: *.
+2021-07-20 14:37:04.6136 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-07-20 14:37:04.6537 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
+2021-07-20 14:37:04.6938 Info Configuration initialized.
+2021-07-20 14:37:04.7345 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-07-20 15:01:24.1967 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 15:01:24.2132 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 15:01:24.3068 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-07-20 15:01:24.3191 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-07-20 15:01:24.3350 Info Message Template Auto Format enabled
+2021-07-20 15:01:24.3534 Info Loading assembly: NLog.WindowsEventLog
+2021-07-20 15:01:24.4047 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.WindowsEventLog
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.WindowsEventLog, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.WindowsEventLog, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2021-07-20 15:01:24.8948 Info Adding target FileTarget(Name=logfile)
+2021-07-20 15:01:24.9304 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'console' not found for logging rule: *.
+2021-07-20 15:01:24.9956 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-07-20 15:01:25.0182 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
+2021-07-20 15:01:25.0481 Info Configuration initialized.
+2021-07-20 15:01:25.0626 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-07-20 15:30:54.9223 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 15:30:54.9398 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 15:30:55.0007 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-07-20 15:30:55.0152 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-07-20 15:30:55.0277 Info Message Template Auto Format enabled
+2021-07-20 15:30:55.0995 Info Adding target FileTarget(Name=logfile)
+2021-07-20 15:30:55.2087 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-07-20 15:30:55.2718 Info Configuration initialized.
+2021-07-20 15:30:55.2826 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+
+2021-07-20 16:19:22.5603 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 16:19:22.5775 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 16:19:22.6717 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-07-20 16:19:22.6815 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-07-20 16:19:22.6963 Info Message Template Auto Format enabled
+2021-07-20 16:19:22.7527 Info Adding target FileTarget(Name=logfile)
+2021-07-20 16:19:22.8426 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-07-20 16:19:22.9065 Info Configuration initialized.
+2021-07-20 16:19:22.9182 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-07-20 16:24:39.5965 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 16:24:39.6182 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 16:24:39.7028 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-07-20 16:24:39.7220 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-07-20 16:24:39.7388 Info Message Template Auto Format enabled
+2021-07-20 16:24:39.8308 Info Adding target FileTarget(Name=logfile)
+2021-07-20 16:24:39.9274 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-07-20 16:24:39.9885 Info Configuration initialized.
+2021-07-20 16:24:40.0092 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-07-20 17:15:02.6199 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 17:15:02.6399 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-20 17:15:02.7495 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-07-20 17:15:02.7618 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-07-20 17:15:02.7768 Info Message Template Auto Format enabled
+2021-07-20 17:15:02.8828 Info Adding target FileTarget(Name=logfile)
+2021-07-20 17:15:02.9897 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-07-20 17:15:03.0457 Info Configuration initialized.
+2021-07-20 17:15:03.0611 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-07-21 09:57:17.3809 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-21 09:57:17.3970 Info Loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-07-21 09:57:17.4896 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-07-21 09:57:17.5056 Info Auto loading assembly file: C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-07-21 09:57:17.5262 Info Message Template Auto Format enabled
+2021-07-21 09:57:17.6517 Info Adding target FileTarget(Name=logfile)
+2021-07-21 09:57:17.8243 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\DEVO\BookStore-API\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2021-07-21 09:57:17.8892 Info Configuration initialized.
+2021-07-21 09:57:17.9073 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False

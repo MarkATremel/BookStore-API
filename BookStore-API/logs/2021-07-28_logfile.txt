@@ -1,0 +1,24 @@
+2021-07-28 16:03:17.8887|INFO|Users - Login: Attempted Call: admin
+2021-07-28 16:03:18.0742|WARN|Users - Login: Login username not found: admin
+2021-07-28 16:03:38.2626|INFO|Users - Login: Attempted Call: admin
+2021-07-28 16:03:38.4873|INFO|Users - Login: Successful Call: admin
+2021-07-28 16:04:52.9146|INFO|Users - Login: Attempted Call: 
+2021-07-28 16:04:53.0310|ERROR|Value cannot be null. (Parameter 'userName') - 
+2021-07-28 16:06:17.1495|INFO|Users - Login: Attempted Call: admin
+2021-07-28 16:06:17.3495|INFO|Users - Login: Successful Call: admin
+2021-07-28 16:10:00.5358|INFO|Users - Login: Attempted Call: admin
+2021-07-28 16:10:00.7878|INFO|Users - Login: Successful Call: admin
+2021-07-28 16:22:40.1331|INFO|Users - Login: Attempted Call: string
+2021-07-28 16:22:40.2001|WARN|Users - Login: Login username not found: string
+2021-07-28 16:23:00.9524|INFO|Users - Login: Attempted Call: admin
+2021-07-28 16:23:01.1272|INFO|Users - Login: Successful Call: admin
+2021-07-28 16:36:56.4654|INFO|Authors - GetAuthors: Attempted Call
+2021-07-28 16:36:56.6059|INFO|Authors - GetAuthors: Successful Call
+2021-07-28 16:48:53.8584|INFO|Users - Login: Attempted Call: admin
+2021-07-28 16:48:54.0970|INFO|Users - Login: Successful Call: admin
+2021-07-28 16:54:50.0057|INFO|Users - Login: Attempted Call: admin
+2021-07-28 16:54:50.2359|INFO|Users - Login: Successful Call: admin
+2021-07-28 17:07:04.5917|INFO|Users - Login: Attempted Call: admin
+2021-07-28 17:07:04.8234|INFO|Users - Login: Successful Call: admin
+2021-07-28 17:09:27.9101|INFO|Users - Login: Attempted Call: admin
+2021-07-28 17:09:28.1399|INFO|Users - Login: Successful Call: admin

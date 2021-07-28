@@ -1,0 +1,4 @@
+2021-07-26 16:24:51.7904|INFO|Users - Login: Attempted Call: test
+2021-07-26 16:24:51.9734|WARN|Users - Login: Login username not found: test
+2021-07-26 16:29:23.7976|INFO|Users - Login: Attempted Call: admin
+2021-07-26 16:29:24.0292|INFO|Users - Login: Successful Call: admin

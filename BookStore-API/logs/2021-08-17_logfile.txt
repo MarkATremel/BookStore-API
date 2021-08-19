@@ -1,0 +1,8 @@
+2021-08-17 14:27:26.4274|INFO|Users - Register: Attempted Call: mtremel@bcbsm.com
+2021-08-17 14:28:44.9541|INFO|Users - Register: Attempted Call: mtremel@bcbsm.com
+2021-08-17 14:28:45.0088|ERROR|Users - Register: DuplicateUserName: User name 'mtremel@bcbsm.com' is already taken.
+2021-08-17 14:28:45.0088|ERROR|Users - Register: Login username not found: mtremel@bcbsm.com
+2021-08-17 14:30:48.4874|INFO|Users - Register: Attempted Call: mtremel@bcbsm.com
+2021-08-17 14:30:48.5280|ERROR|Users - Register: DuplicateUserName: User name 'mtremel@bcbsm.com' is already taken.
+2021-08-17 14:30:48.5280|ERROR|Users - Register: Login username not found: mtremel@bcbsm.com
+2021-08-17 14:32:50.8869|INFO|Users - Register: Attempted Call: admin@bookstore.com

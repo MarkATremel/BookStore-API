@@ -1,0 +1,7 @@
+2021-08-20 16:29:20.9527|INFO|Authors - GetAuthors: Attempted Call
+2021-08-20 16:29:21.1252|INFO|Authors - GetAuthors: Successful Call
+2021-08-20 16:32:05.6695|INFO|Authors - GetAuthors: Attempted Call
+2021-08-20 16:32:05.6903|INFO|Authors - GetAuthors: Successful Call
+2021-08-20 16:32:50.9145|INFO|Users - Register: Attempted Call: customer1@bookstore.com
+2021-08-20 17:08:56.1639|INFO|Authors - GetAuthors: Attempted Call
+2021-08-20 17:08:56.2440|INFO|Authors - GetAuthors: Successful Call

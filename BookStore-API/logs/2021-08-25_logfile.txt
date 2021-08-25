@@ -1,0 +1,21 @@
+2021-08-25 09:13:48.5797|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 09:13:48.7964|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 09:18:26.9167|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 09:18:27.0082|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 09:28:08.1434|INFO|Books - Create: Attempted Call
+2021-08-25 09:28:08.4079|INFO|Books - Create: Successful Call
+2021-08-25 09:28:08.4079|INFO|Books - Create: BookStore_API.Data.Book
+2021-08-25 09:29:53.3797|INFO|Books - Create: Attempted Call
+2021-08-25 09:29:53.4348|INFO|Books - Create: Successful Call
+2021-08-25 09:29:53.4398|INFO|Books - Create: BookStore_API.Data.Book
+2021-08-25 09:31:20.7009|INFO|Books - Create: Attempted Call
+2021-08-25 09:31:20.7614|INFO|Books - Create: Successful Call
+2021-08-25 09:31:20.7692|INFO|Books - Create: BookStore_API.Data.Book
+2021-08-25 09:31:39.9854|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 09:31:40.0200|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 09:48:58.7676|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 09:48:58.8514|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 09:53:25.0835|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 09:53:25.1696|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 09:59:44.6067|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 09:59:44.6935|INFO|Authors - GetAuthors: Successful Call

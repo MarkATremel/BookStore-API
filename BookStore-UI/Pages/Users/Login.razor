@@ -1,8 +1,5 @@
 ﻿@page "/login"
 
-@using BookStore_UI.Models
-@using BookStore_UI.Contracts
-
 @inject IAuthenticationRepository _authRepo
 @inject NavigationManager _navManager
 
@@ -11,10 +8,11 @@
     <h3 class="card-title">Login</h3>
     @if (!response)
     {
-        <div class="alert alert-danger ">
-            <p>Something went wrong with the login attempt</p>
+        <div class="alert alert-dismissible alert-secondary">
+            <p> Something went wrong with the login...</p>
         </div>
     }
+
     <div class="card-body">
         <EditForm Model="Model" OnValidSubmit="HandleLogin">
             <DataAnnotationsValidator />
@@ -29,7 +27,7 @@
                 <InputText Id="password" type="password" class="form-control" @bind-Value="Model.Password" />
                 <ValidationMessage For="@(() => Model.Password)" />
             </div>
-              <button type="submit" class="btn btn-primary btn-block">Login</button>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
         </EditForm>
     </div>
 </div>

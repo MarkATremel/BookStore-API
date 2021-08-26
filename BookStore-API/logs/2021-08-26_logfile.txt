@@ -1,0 +1,2 @@
+2021-08-26 10:59:57.6702|INFO|Authors - GetAuthors: Attempted Call
+2021-08-26 10:59:57.7688|INFO|Authors - GetAuthors: Successful Call

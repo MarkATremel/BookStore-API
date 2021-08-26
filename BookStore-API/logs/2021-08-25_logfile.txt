@@ -19,3 +19,13 @@
 2021-08-25 09:53:25.1696|INFO|Authors - GetAuthors: Successful Call
 2021-08-25 09:59:44.6067|INFO|Authors - GetAuthors: Attempted Call
 2021-08-25 09:59:44.6935|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 16:24:55.4898|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 16:24:55.6002|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 16:26:27.7719|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 16:26:27.8506|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 16:29:16.2263|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 16:29:16.3082|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 17:14:48.4659|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 17:14:48.5436|INFO|Authors - GetAuthors: Successful Call
+2021-08-25 17:23:53.1531|INFO|Authors - GetAuthors: Attempted Call
+2021-08-25 17:23:53.2336|INFO|Authors - GetAuthors: Successful Call

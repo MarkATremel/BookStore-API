@@ -98,7 +98,15 @@ namespace BookStore_UI.Service
 
         private async Task<string> GetBearerToken()
         {
-            return await _localStorage.GetItemAsync<string>("authToken");
+            try
+            {
+                return await _localStorage.GetItemAsync<string>("authToken");
+            }
+            catch(Exception e)
+            {
+                return $"{"getbearertoken"}: {e.Message} - {e.InnerException}";
+            }
+            /*return await _localStorage.GetItemAsync<string>("authToken");*/
 
         }
     }

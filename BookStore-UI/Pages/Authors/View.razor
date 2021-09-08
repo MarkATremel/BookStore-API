@@ -14,14 +14,14 @@
 }
 else @if (Model == null)
 {
-<div class="alert alert-secondary ">
-    <p> Loading Author details...</p>
+<div class="alert alert-dismissible alert-secondary ">
+    <p> Loading Author Details...</p>
 </div>
 }
 else
 {
 <div class="col-md-4">
-    <h4>Author Details    </h4>
+    <h4>View Author Details    </h4>
 
     <table class="table table-responsive">
         <tr>
@@ -44,7 +44,7 @@ else
             <p> No Books for this author...</p>
         </div>
     }
-    }else
+    else
     {
     <div class="card" style="width: 18rem;">
         <div class="card-header">

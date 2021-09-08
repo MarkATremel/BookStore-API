@@ -5,23 +5,22 @@
 
 @if (Model == null)
 {
-     <div class="alert alert-dismissible alert-secondary">
-         Loading data...
-     </div>           
+    <LoadingMessage Message="Loading Authors" />
+
 }
 else
 {
-<table class="table table-responsive">
-    <thead>
-        <tr>
-            <th> First Name</th>
-            <th> Last Name</th>
-            <th> Actions</th>
-        </tr>
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+                <th> First Name</th>
+                <th> Last Name</th>
+                <th> Actions</th>
+            </tr>
 
-    </thead>
-    <tbody>
-        @foreach (var author in Model)
+        </thead>
+        <tbody>
+            @foreach (var author in Model)
             {
                 <tr>
                     <td>@author.Firstname</td>
@@ -30,7 +29,7 @@ else
                         <a href="/authors/view/@author.Id" class="btn btn-primary">
                             <span class="oi oi-book"></span>
                         </a>
-                        <a class="btn btn-warning">
+                        <a href="/authors/edit/@author.Id" class="btn btn-warning">
                             <span class="oi oi-pencil"></span>
                         </a>
                         <a class="btn btn-danger ">
@@ -39,9 +38,9 @@ else
                     </td>
                 </tr>
             }
-    </tbody>
+        </tbody>
 
-</table>
+    </table>
 }
 
 

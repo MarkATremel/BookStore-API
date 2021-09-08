@@ -13,5 +13,4 @@ namespace BookStore_UI.Static
         public static string RegisterEndpoint = $"{BaseURL}api/users/register/";
         public static string LoginEndpoint = $"{BaseURL}api/users/login/";
     }
-
 }

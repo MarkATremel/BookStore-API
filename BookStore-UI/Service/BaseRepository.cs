@@ -81,17 +81,18 @@ namespace BookStore_UI.Service
             return null;
         }
 
-        public async Task<bool> Update(string url, T obj)
+        public async Task<bool> Update(string url, T obj, int id)
         {
-            var request = new HttpRequestMessage(HttpMethod.Put, url);
+            var request = new HttpRequestMessage(HttpMethod.Put, url+id);
             if (obj == null)
                 return false;
             request.Content = new StringContent(JsonConvert.SerializeObject(obj),
                 Encoding.UTF8,"application/json");
             var client = _client.CreateClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", await GetBearerToken());
             HttpResponseMessage response = await client.SendAsync(request);
 
-            if (response.StatusCode == System.Net.HttpStatusCode.Created)
+            if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
                 return true;
             return false;
         }
@@ -102,12 +103,15 @@ namespace BookStore_UI.Service
             {
                 return await _localStorage.GetItemAsync<string>("authToken");
             }
-            catch(Exception e)
+            /*catch(Exception e)
             {
                 return $"{"getbearertoken"}: {e.Message} - {e.InnerException}";
             }
-            /*return await _localStorage.GetItemAsync<string>("authToken");*/
-
+            return await _localStorage.GetItemAsync<string>("authToken");*/
+            catch (NullReferenceException)
+            {
+                return $"test";
+            }
         }
     }
 }

@@ -1,0 +1,10 @@
+2021-09-08 15:10:44.8820|INFO|Authors - GetAuthors: Attempted Call
+2021-09-08 15:10:45.0784|INFO|Authors - GetAuthors: Successful Call
+2021-09-08 15:24:46.5446|INFO|Authors - GetAuthors: Attempted Call
+2021-09-08 15:24:46.6321|INFO|Authors - GetAuthors: Successful Call
+2021-09-08 15:40:44.1633|INFO|Authors - GetAuthors: Attempted Call
+2021-09-08 15:40:44.2679|INFO|Authors - GetAuthors: Successful Call
+2021-09-08 15:57:25.4400|INFO|Authors - GetAuthors: Attempted Call
+2021-09-08 15:57:25.5313|INFO|Authors - GetAuthors: Successful Call
+2021-09-08 15:57:43.5056|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-08 15:57:43.6125|INFO|Authors - GetAuthor: Successful Call: 1

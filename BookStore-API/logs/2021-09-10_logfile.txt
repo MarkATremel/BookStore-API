@@ -1,0 +1,99 @@
+2021-09-10 14:28:03.9420|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:28:04.0738|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 14:28:06.8855|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 14:28:06.9225|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 14:28:45.8625|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:28:45.8841|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 14:28:48.2834|INFO|Authors - GetAuthor: Attempted Call: 2
+2021-09-10 14:28:48.3047|INFO|Authors - GetAuthor: Successful Call: 2
+2021-09-10 14:28:55.2676|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:28:55.2996|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 14:28:57.0256|INFO|Authors - GetAuthor: Attempted Call: 3
+2021-09-10 14:28:57.0480|INFO|Authors - GetAuthor: Successful Call: 3
+2021-09-10 14:28:58.4321|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:28:58.4540|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 14:29:00.1833|INFO|Authors - GetAuthor: Attempted Call: 4
+2021-09-10 14:29:00.2055|INFO|Authors - GetAuthor: Successful Call: 4
+2021-09-10 14:29:03.7434|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:29:03.7653|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 14:29:05.1500|INFO|Authors - GetAuthor: Attempted Call: 6
+2021-09-10 14:29:05.1726|INFO|Authors - GetAuthor: Successful Call: 6
+2021-09-10 14:29:06.6399|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:29:06.6613|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 14:58:47.0700|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:58:47.1509|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 14:59:42.4684|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:59:42.5113|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 14:59:44.2737|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 14:59:44.3070|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 14:59:54.3006|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 14:59:54.3219|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:19:18.0947|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:19:18.1716|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:19:22.9233|INFO|Authors - GetAuthor: Attempted Call: 6
+2021-09-10 15:19:22.9584|INFO|Authors - GetAuthor: Successful Call: 6
+2021-09-10 15:19:29.7182|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:19:29.7401|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:19:32.5229|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 15:19:32.5479|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 15:19:37.3601|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:19:37.3822|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:44:15.5156|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:44:15.5869|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:44:30.0118|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 15:44:30.0471|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 15:45:11.3008|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:45:11.3223|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:45:16.9983|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 15:45:17.0211|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 15:45:30.7974|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:45:30.8208|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:45:36.2393|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 15:45:36.2622|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 15:45:39.2655|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:45:39.2873|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:45:41.3438|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 15:45:41.3663|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 15:45:43.4793|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:45:43.5014|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:53:00.3660|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:53:00.4369|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:53:03.0388|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 15:53:03.0757|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 15:57:19.1419|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:57:19.2190|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 15:57:24.9770|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 15:57:25.0131|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 15:59:36.8103|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 15:59:36.8334|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 16:00:40.5906|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 16:00:40.6656|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 16:00:44.8098|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-10 16:00:44.8471|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-10 16:00:48.1153|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 16:00:48.1390|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 16:38:44.5316|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 16:38:44.6050|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 16:39:06.4789|INFO|Authors - GetAuthor: Attempted Call: 2
+2021-09-10 16:39:06.5144|INFO|Authors - GetAuthor: Successful Call: 2
+2021-09-10 16:39:12.5809|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 16:39:12.6042|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 16:40:14.6240|INFO|Authors - Create: Attempted Call
+2021-09-10 16:40:14.8006|INFO|Authors - Create: Successful Call
+2021-09-10 16:40:14.8006|INFO|Authors - Create: BookStore_API.Data.Author
+2021-09-10 16:40:37.1664|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 16:40:37.1909|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 16:40:51.6546|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 16:40:51.6772|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 16:40:54.1552|INFO|Authors - GetAuthor: Attempted Call: 7
+2021-09-10 16:40:54.1778|INFO|Authors - GetAuthor: Successful Call: 7
+2021-09-10 16:40:55.7495|INFO|Authors - Delete: Attempted Call: 7
+2021-09-10 16:40:55.9154|INFO|Authors - Delete: Successful Call: 7
+2021-09-10 16:40:55.9404|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 16:40:55.9628|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 17:05:52.1635|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 17:05:52.2387|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 17:06:22.2577|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 17:06:22.2853|INFO|Authors - GetAuthors: Successful Call
+2021-09-10 17:06:37.1739|INFO|Authors - GetAuthors: Attempted Call
+2021-09-10 17:06:37.1970|INFO|Authors - GetAuthors: Successful Call

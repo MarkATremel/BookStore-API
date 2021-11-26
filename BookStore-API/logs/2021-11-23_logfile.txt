@@ -1,0 +1,2 @@
+2021-11-23 11:41:43.9061|INFO|Books - GetBooks: Attempted Call
+2021-11-23 11:41:44.6136|INFO|Books - GetBooks: Successful Call

@@ -1,0 +1,16 @@
+2021-09-16 16:30:26.7937|INFO|Authors - GetAuthors: Attempted Call
+2021-09-16 16:30:26.9989|INFO|Authors - GetAuthors: Successful Call
+2021-09-16 16:30:46.8541|INFO|Authors - GetAuthors: Attempted Call
+2021-09-16 16:30:46.9030|INFO|Authors - GetAuthors: Successful Call
+2021-09-16 16:30:49.6478|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-16 16:30:49.7164|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-16 16:30:54.8371|INFO|Authors - GetAuthors: Attempted Call
+2021-09-16 16:30:54.8616|INFO|Authors - GetAuthors: Successful Call
+2021-09-16 16:46:16.2666|INFO|Authors - GetAuthors: Attempted Call
+2021-09-16 16:46:16.4044|INFO|Authors - GetAuthors: Successful Call
+2021-09-16 16:46:28.2577|INFO|Authors - GetAuthors: Attempted Call
+2021-09-16 16:46:28.3015|INFO|Authors - GetAuthors: Successful Call
+2021-09-16 16:47:59.7787|INFO|Authors - GetAuthors: Attempted Call
+2021-09-16 16:47:59.9108|INFO|Authors - GetAuthors: Successful Call
+2021-09-16 16:50:32.8901|INFO|Authors - GetAuthors: Attempted Call
+2021-09-16 16:50:33.0194|INFO|Authors - GetAuthors: Successful Call

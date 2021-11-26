@@ -8,9 +8,7 @@
 
 @if (int.Parse(Id) < 1 || string.IsNullOrWhiteSpace(Id))
 {
-    <div class="alert alert-secondary ">
-        <p> Invalid Selection.  Try again...</p>
-    </div>
+    <LoadingMessage Message="Invalid Selection.  Try again..." />
 }
 else @if (Model == null)
 {

@@ -1,0 +1,64 @@
+2021-09-21 11:30:28.9894|INFO|Authors - GetAuthors: Attempted Call
+2021-09-21 11:30:29.1556|INFO|Authors - GetAuthors: Successful Call
+2021-09-21 11:49:04.1548|INFO|Authors - GetAuthors: Attempted Call
+2021-09-21 11:49:04.2835|INFO|Authors - GetAuthors: Successful Call
+2021-09-21 11:49:08.8253|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-21 11:49:08.8814|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-21 11:49:11.5086|INFO|Authors - GetAuthors: Attempted Call
+2021-09-21 11:49:11.5318|INFO|Authors - GetAuthors: Successful Call
+2021-09-21 12:54:51.8312|INFO|Books - GetBooks: Attempted Call
+2021-09-21 12:54:51.9605|INFO|Books - GetBooks: Successful Call
+2021-09-21 12:55:03.5576|INFO|Authors - GetAuthors: Attempted Call
+2021-09-21 12:55:03.6053|INFO|Authors - GetAuthors: Successful Call
+2021-09-21 12:55:05.6486|INFO|Authors - GetAuthor: Attempted Call: 1
+2021-09-21 12:55:05.6871|INFO|Authors - GetAuthor: Successful Call: 1
+2021-09-21 12:55:07.1133|INFO|Authors - GetAuthors: Attempted Call
+2021-09-21 12:55:07.1370|INFO|Authors - GetAuthors: Successful Call
+2021-09-21 12:55:08.5668|INFO|Books - GetBooks: Attempted Call
+2021-09-21 12:55:08.5902|INFO|Books - GetBooks: Successful Call
+2021-09-21 16:55:10.7418|INFO|Books - GetBooks: Attempted Call
+2021-09-21 16:55:10.9256|INFO|Books - GetBooks: Successful Call
+2021-09-21 16:55:32.1722|INFO|Authors - GetAuthors: Attempted Call
+2021-09-21 16:55:32.2308|INFO|Authors - GetAuthors: Successful Call
+2021-09-21 16:55:34.2986|INFO|Books - GetBooks: Attempted Call
+2021-09-21 16:55:34.3206|INFO|Books - GetBooks: Successful Call
+2021-09-21 16:57:01.2365|INFO|Authors - GetAuthors: Attempted Call
+2021-09-21 16:57:01.2699|INFO|Authors - GetAuthors: Successful Call
+2021-09-21 16:57:20.6438|INFO|Books - GetBooks: Attempted Call
+2021-09-21 16:57:20.6695|INFO|Books - GetBooks: Successful Call
+2021-09-21 16:59:19.7997|INFO|Books - GetBooks: Attempted Call
+2021-09-21 16:59:19.9122|INFO|Books - GetBooks: Successful Call
+2021-09-21 17:06:58.0700|INFO|Books - GetBooks: Attempted Call
+2021-09-21 17:06:58.1875|INFO|Books - GetBooks: Successful Call
+2021-09-21 17:08:42.1035|INFO|Books - GetBooks: Attempted Call
+2021-09-21 17:08:42.6288|INFO|Books - GetBooks: Successful Call
+2021-09-21 17:22:07.8774|INFO|Books - GetBooks: Attempted Call
+2021-09-21 17:22:08.0084|INFO|Books - GetBooks: Successful Call
+2021-09-21 17:30:33.9713|INFO|Authors - GetAuthors: Attempted Call
+2021-09-21 17:30:34.0949|INFO|Authors - GetAuthors: Successful Call
+2021-09-21 17:31:01.8002|INFO|Books - GetBooks: Attempted Call
+2021-09-21 17:31:01.8417|INFO|Books - GetBooks: Successful Call
+2021-09-21 17:31:11.3787|INFO|Books - GetBook: Attempted Call: 3
+2021-09-21 17:31:11.5128|ERROR|Books - GetBook: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> IList`1
+System.Object -> System.Collections.Generic.IList`1[[BookStore_API.DTOs.BookDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - 
+2021-09-21 17:31:16.4510|INFO|Books - GetBooks: Attempted Call
+2021-09-21 17:31:16.4763|INFO|Books - GetBooks: Successful Call
+2021-09-21 17:31:19.9930|INFO|Books - GetBook: Attempted Call: 4
+2021-09-21 17:31:20.0437|ERROR|Books - GetBook: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> IList`1
+System.Object -> System.Collections.Generic.IList`1[[BookStore_API.DTOs.BookDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - 
+2021-09-21 17:31:21.7684|INFO|Books - GetBooks: Attempted Call
+2021-09-21 17:31:21.7911|INFO|Books - GetBooks: Successful Call
+2021-09-21 17:31:25.2460|INFO|Books - GetBook: Attempted Call: 4
+2021-09-21 17:31:25.3032|ERROR|Books - GetBook: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> IList`1
+System.Object -> System.Collections.Generic.IList`1[[BookStore_API.DTOs.BookDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - 
+2021-09-21 17:31:28.3403|INFO|Books - GetBooks: Attempted Call
+2021-09-21 17:31:28.3659|INFO|Books - GetBooks: Successful Call

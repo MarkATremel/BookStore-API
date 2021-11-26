@@ -24,8 +24,10 @@ namespace BookStore_UI.Service
         {
             var request = new HttpRequestMessage(HttpMethod.Post, url);
             if (obj == null)
-                return false;
-            request.Content = new StringContent(JsonConvert.SerializeObject(obj));
+                return true;
+
+            request.Content = new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json");
+
             var client = _client.CreateClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", await GetBearerToken());
             HttpResponseMessage response = await client.SendAsync(request);
@@ -99,7 +101,7 @@ namespace BookStore_UI.Service
 
         private async Task<string> GetBearerToken()
         {
-                return await _localStorage.GetItemAsync<string>("authToken");
+            return await _localStorage.GetItemAsync<string>("authToken");
         }
     }
 }

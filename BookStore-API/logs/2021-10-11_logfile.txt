@@ -1,0 +1,34 @@
+2021-10-11 09:28:51.1463|INFO|Books - GetBooks: Attempted Call
+2021-10-11 09:28:51.2865|INFO|Books - GetBooks: Successful Call
+2021-10-11 10:40:33.4892|INFO|Books - GetBooks: Attempted Call
+2021-10-11 10:40:33.6013|INFO|Books - GetBooks: Successful Call
+2021-10-11 10:58:28.2855|INFO|Books - GetBooks: Attempted Call
+2021-10-11 10:58:28.4355|INFO|Books - GetBooks: Successful Call
+2021-10-11 10:58:40.1209|INFO|Books - GetBook: Attempted Call: 3
+2021-10-11 10:58:40.2118|ERROR|Books - GetBook: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> IList`1
+System.Object -> System.Collections.Generic.IList`1[[BookStore_API.DTOs.BookDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - 
+2021-10-11 10:58:44.2368|INFO|Books - GetBooks: Attempted Call
+2021-10-11 10:58:44.2618|INFO|Books - GetBooks: Successful Call
+2021-10-11 10:58:47.3380|INFO|Books - GetBook: Attempted Call: 4
+2021-10-11 10:58:47.3892|ERROR|Books - GetBook: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> IList`1
+System.Object -> System.Collections.Generic.IList`1[[BookStore_API.DTOs.BookDTO, BookStore-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - 
+2021-10-11 10:58:48.9425|INFO|Books - GetBooks: Attempted Call
+2021-10-11 10:58:48.9688|INFO|Books - GetBooks: Successful Call
+2021-10-11 11:02:57.6297|INFO|Books - GetBooks: Attempted Call
+2021-10-11 11:02:57.7518|INFO|Books - GetBooks: Successful Call
+2021-10-11 11:04:36.1631|INFO|Books - GetBooks: Attempted Call
+2021-10-11 11:04:36.2716|INFO|Books - GetBooks: Successful Call
+2021-10-11 11:06:28.8011|INFO|Books - GetBooks: Attempted Call
+2021-10-11 11:06:28.9111|INFO|Books - GetBooks: Successful Call
+2021-10-11 11:14:00.3689|INFO|Books - GetBooks: Attempted Call
+2021-10-11 11:14:00.4986|INFO|Books - GetBooks: Successful Call
+2021-10-11 11:15:20.8610|INFO|Books - GetBooks: Attempted Call
+2021-10-11 11:15:20.9716|INFO|Books - GetBooks: Successful Call
+2021-10-11 11:19:48.0732|INFO|Books - GetBooks: Attempted Call
+2021-10-11 11:19:48.1887|INFO|Books - GetBooks: Successful Call
